@@ -1,7 +1,8 @@
 
 import './App.css'
+import Product from './components/Product';
+import products from './data/products';
 
-const style2 = "green"
 
 
 function Header() {
@@ -15,6 +16,7 @@ function Content(props) {
 function Footer() {
   return (<h1>Enjoy the React experience!</h1>)
 }
+const style2 = "green"
 
 function App() {
 
@@ -26,6 +28,14 @@ function App() {
     <Content color={style2} text="Method 2:  Inline styling" />
     <Content color="gray" text="Method 3:  CSS Modules" />
     <Content color="black" text="Method 4:  Styled-components" />
+
+    <div>
+      {
+        products.map((item) => (
+          <Product {...item} key={item.id}/>
+        ))
+      }
+    </div>
     <Footer />
      
     </>

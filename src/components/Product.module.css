@@ -1,0 +1,13 @@
+.container{
+    background-color: royalblue;
+    padding: 10px;
+}
+
+.heading{
+    color: rgb(237, 200, 136)
+}
+
+.saleBy {
+    color: rgba(179, 12, 12, 0.872);
+    background: #fff;
+}
