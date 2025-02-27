@@ -1,0 +1,17 @@
+#root {
+  text-align: center;
+  border: 2px solid gray;
+  border-width: 100px;
+  width: 1000px;
+  margin-top: 50px;
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
